@@ -38,7 +38,7 @@ end
     h = Hash.new(0)
      @@artists.each {|each_artist| h[each_artist] +=1}
      return h
-   end
-  end
+    end
+    end
 
 end
